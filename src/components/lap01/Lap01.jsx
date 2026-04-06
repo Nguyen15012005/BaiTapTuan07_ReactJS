@@ -2,7 +2,7 @@ import React from 'react'
 import ComponentA from './ComponentA'
 import ComponentB from './ComponentB'
 
-const Bai1 = () => {
+const Lap01 = () => {
   return (
     <div>
         <ComponentA/>
@@ -11,4 +11,4 @@ const Bai1 = () => {
   )
 }
 
-export default Bai1
+export default Lap01

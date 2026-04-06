@@ -1,9 +1,9 @@
 import React from 'react'
-import { useRecoilState } from 'recoil'
+import {  useRecoilValue } from 'recoil'
 import { CountState } from '../../recoil/CountState'
 
 const ComponentA = () => {
-    const count= useRecoilState(CountState)
+    const count= useRecoilValue(CountState)
   return (
     <div>
         <h1>{count}</h1>

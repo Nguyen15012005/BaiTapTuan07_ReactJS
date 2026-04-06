@@ -1,7 +1,7 @@
-import React from 'react'
-import { atom } from 'recoil'
+import React from "react";
+import { atom } from "recoil";
 
-export const CountState = atom({
-    key : 'themeState',
-    default : 'light'
-})
+export const ThemeState = atom({
+  key: "themeState",
+  default: "light",
+});
